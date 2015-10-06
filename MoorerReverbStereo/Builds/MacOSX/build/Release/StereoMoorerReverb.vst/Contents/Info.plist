@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12F45</string>
+	<key>CFBundleExecutable</key>
+	<string>StereoMoorerReverb</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.keza.MoorerReverbStereo</string>
+	<key>CFBundleName</key>
+	<string>MoorerReverbStereo</string>
+	<key>CFBundlePackageType</key>
+	<string>TDMw</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>PTul</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A3005</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13A595</string>
+	<key>DTSDKName</key>
+	<string>macosx10.9</string>
+	<key>DTXcode</key>
+	<string>0502</string>
+	<key>DTXcodeBuild</key>
+	<string>5A3005</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>ogc</string>
+</dict>
+</plist>
