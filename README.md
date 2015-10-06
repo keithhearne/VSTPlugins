@@ -16,7 +16,7 @@ of delay implementations that contain design aspects of the Schroeder Reverb.
 Assumptions for development:
 * Plugin design and framework created using the JUCE framework available at: [JUCE] (http://www.juce.com/)
 * The Steinberg VST 3 SDK is needed in order to build these, the path to this will need to be adjusted in each of the .jucer files
-* Subsequent implementation and DSP programmed in Xcode using C++
+* Subsequent implementation and DSP programming in Xcode using C++, used to build the vst component
 * all sample rates fixed at 44.1KHz.
 * all VSTs are 32bit versions
 * stereo versions designed for stereo interleaved format
@@ -27,7 +27,7 @@ The order of VSTs in the design approach is :
 2. Stereo Delay (StereoDelayLine)
 3. Synced Tap Delay (SyncedTapDelayLine)
 4. Crossed Feedback Delay (CrossStereoDelayLine)
-5. Ping Pond Delay (PingPonDelayLine)
+5. Ping Pong Delay (PingPonDelayLine)
 6. Mono Schroeder Reverb (SchroederReverb)
 7. Stereo Schroeder Reverb (SchroederReverbStereo)
 8. Mono Moorer Reverb (MoorerReverb)
@@ -38,9 +38,9 @@ Acknowledgements:
 
 The following sources were used extensively in referencing design and development steps for this project
 
-Manfred R. Schroeder (1962), Natural-sounding artificial reverberation, Journal of the Audio Engineering Society, vol. 10, no. 3, pp. 219-223. [ONLINE] Available at: http://www.ece.rochester.edu/~zduan/teaching/ece472/reading/Schroeder_1962.pdf. 
+Manfred R. Schroeder (1962), Natural-sounding artificial reverberation, Journal of the Audio Engineering Society, vol. 10, no. 3, pp. 219-223. [ONLINE] Available at: http://www.ece.rochester.edu/~zduan/teaching/ece472/reading/Schroeder_1962.pdf
 
-James A. Moorer, (1979), About This Reverberation Business, Computer Music Journal, vol. 3, no. 2, MIT Press [ONLINE] Available at: http://www.music.mcgill.ca/~gary/courses/papers/Moorer-Reverb-CMJ-1979.pdf.
+James A. Moorer, (1979), About This Reverberation Business, Computer Music Journal, vol. 3, no. 2, MIT Press [ONLINE] Available at: http://www.music.mcgill.ca/~gary/courses/papers/Moorer-Reverb-CMJ-1979.pdf
 
 Richard Boulanger, 2000. The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing,and Programming. Edition. The MIT Press.
 
