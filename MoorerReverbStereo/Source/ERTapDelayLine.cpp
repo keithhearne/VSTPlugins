@@ -26,7 +26,7 @@
 // passed to function
 //-------------------------------------------------------------------------
 inline float tapNumSamplesFromMSf(const int sr, const float d_ms){
-    return sr * d_ms;
+    return sr * d_ms * 0.001;
 }
 
 //----------------------------------------------------------------------
